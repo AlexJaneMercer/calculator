@@ -99,6 +99,16 @@ let mass = [
     inputMinus: iM,
 },
 {
+    name: "Баллон с газом",
+    cost: 350,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
     name: "Баллон для оружейной смазки",
     cost: 350,
     count: 0,
@@ -129,6 +139,16 @@ let mass = [
     inputMinus: iM,
 },
 {
+    name: "Боковая бронепластина из титанового сплава",
+    cost: 650,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
     name: "Бронепластина из балистической ткани",
     cost: 750,
     count: 0,
@@ -151,6 +171,16 @@ let mass = [
 {
     name: "Клей",
     cost: 250,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+    {
+    name: "Конденсаторы/Резисторы",
+    cost: 300,
     count: 0,
 
     counterPlus: cP,
