@@ -79,6 +79,16 @@ let mass = [
     inputMinus: iM,
 },
 {
+    name: "Брезентовая ткань",
+    cost: 250,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
     name: "Белая ПВХ изолента",
     cost: 225,
     count: 0,
@@ -822,6 +832,26 @@ let mass = [
 {
     name: "Банка с краской",
     cost: 250,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Баллон с газом",
+    cost: 300,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Конденсаторы",
+    cost: 200,
     count: 0,
 
     counterPlus: cP,
