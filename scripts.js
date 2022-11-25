@@ -269,6 +269,16 @@ let mass = [
     inputMinus: iM,
 },
 {
+    name: "Самодельная плита из углеродного волокна",
+    cost: 400,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
     name: "Ткань из РИП-СТОПА",
     cost: 350,
     count: 0,
