@@ -954,7 +954,7 @@ mass.map((person, i) => (
     ` 
     <li class="element"> 
 
-    ${person.name} = <div style="display: inline; color:white;"> ${person.cost} rub. </div> 
+    ${person.name} = <div style="display: inline; color:red;"> ${person.cost} rub. </div> 
 
     . . Количество : <div class="amount" id="amount-${i}"> ${person.count} </div>
         <button class="btn-plus" onClick="mass[${i}].counterPlus(${i})"> +1 </button> 
