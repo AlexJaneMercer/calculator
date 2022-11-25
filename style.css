@@ -1,11 +1,12 @@
 body{
-    background:url(https://sun9-64.userapi.com/impg/w6knt8vZeJluW8NfXk0-j1RQ4B0OsGeBwQg9LA/OxvQYcgZMX0.jpg?size=807x454&quality=95&sign=f9203058cc32778d87c26dfe0de9f7b1&type=album);
+    background: url(monetki.png);
     background-repeat: no-repeat;
     background-size: 100%;
     color:goldenrod;
     font-size: 18px;
     background-attachment: fixed, fixed;
     font-weight: 600;
+    margin-top: 150px;
 }
 
 .btn-plus{
