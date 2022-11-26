@@ -9,7 +9,7 @@ let cM = function func2(id){
         this.count -= 1;
     }
     console.log(this.count);
-    resultat.innerHTML = ` <h1> ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
+    resultat.innerHTML = ` <h1> Апостол Сын Шалавы - ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
     amount.innerHTML = `${this.count}`;
 };
 
@@ -20,7 +20,7 @@ let cP = function func1(id){
     res += this.cost;
     this.count += 1;
     console.log(this.count);
-    resultat.innerHTML = ` <h1> ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
+    resultat.innerHTML = ` <h1>Апостол Сын Шалавы - ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
     amount.innerHTML = `${this.count}`;
 };
 
@@ -32,7 +32,7 @@ let iP = function inputPlus(id){
     this.count += +counter.value;
     res += +counter.value * this.cost;
     counter.value = ``;
-    resultat.innerHTML = ` <h1> ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
+    resultat.innerHTML = ` <h1>Апостол Сын Шалавы - ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
     amount.innerHTML = `${this.count}`;
 };
 
@@ -46,7 +46,7 @@ let iM = function inputMinus(id){
         this.count = 0;
     }
     counter.value = ``;
-    resultat.innerHTML = ` <h1> ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
+    resultat.innerHTML = ` <h1>Апостол Сын Шалавы - ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
     amount.innerHTML = `${this.count}`;
 };
 
@@ -1016,7 +1016,7 @@ let mass = [
 
 let ul = document.getElementById('list');
 let resultat = document.getElementById('resultat');
-resultat.innerHTML = ` <h1> ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
+resultat.innerHTML = ` <h1>Апостол Сын Шалавы - ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
 
 
 mass.map((person, i) => (
