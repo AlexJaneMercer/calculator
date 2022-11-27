@@ -643,7 +643,7 @@ let mass = [
 },
 {
     name: "Клык Королевского-кабана",
-    cost: 575,
+    cost: 975,
     count: 0,
 
     counterPlus: cP,
@@ -824,7 +824,7 @@ let mass = [
 },
 {
     name: "Шкура Королевского-Кабана",
-    cost: 550,
+    cost: 1250,
     count: 0,
 
     counterPlus: cP,
