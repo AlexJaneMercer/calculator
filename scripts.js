@@ -900,6 +900,16 @@ let mass = [
     inputMinus: iM,
 },
 {
+    name: "Сумка охотника",
+    cost: 1600,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
     name: "Спички",
     cost: 75,
     count: 0,
