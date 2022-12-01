@@ -168,16 +168,6 @@ let mass = [
     inputPlus: iP,
     inputMinus: iM,
 },
-    {
-    name: "Конденсаторы/Резисторы",
-    cost: 300,
-    count: 0,
-
-    counterPlus: cP,
-    counterMinus: cM,
-    inputPlus: iP,
-    inputMinus: iM,
-},
 {
     name: "Инструменты для грубой работы",
     cost: 1200,
@@ -889,9 +879,9 @@ let mass = [
     inputPlus: iP,
     inputMinus: iM,
 },
-{
-    name: "Конденсаторы",
-    cost: 200,
+    {
+    name: "Конденсаторы/Резисторы",
+    cost: 300,
     count: 0,
 
     counterPlus: cP,
