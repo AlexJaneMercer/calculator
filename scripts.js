@@ -99,16 +99,6 @@ let mass = [
     inputMinus: iM,
 },
 {
-    name: "Баллон с газом",
-    cost: 350,
-    count: 0,
-
-    counterPlus: cP,
-    counterMinus: cM,
-    inputPlus: iP,
-    inputMinus: iM,
-},
-{
     name: "Баллон для оружейной смазки",
     cost: 350,
     count: 0,
@@ -881,7 +871,17 @@ let mass = [
 },
 {
     name: "Баллон с газом",
-    cost: 300,
+    cost: 350,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Батарейка",
+    cost: 130,
     count: 0,
 
     counterPlus: cP,
@@ -892,6 +892,26 @@ let mass = [
 {
     name: "Конденсаторы",
     cost: 200,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Карты",
+    cost: 100,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Пачка испорченных патронов",
+    cost: 150,
     count: 0,
 
     counterPlus: cP,
@@ -931,7 +951,47 @@ let mass = [
 },
 {
     name: "Сапоги",
-    cost: 100,
+    cost: 150,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Спальник",
+    cost: 240,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Сумка охотника",
+    cost: 1900,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Текстолит",
+    cost: 190,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Уголь",
+    cost: 270,
     count: 0,
 
     counterPlus: cP,
