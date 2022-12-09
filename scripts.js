@@ -574,7 +574,7 @@ let mass = [
 },
 {
     name: "Голова Тушкана",
-    cost: 200,
+    cost: 250,
     count: 0,
 
     counterPlus: cP,
@@ -584,7 +584,7 @@ let mass = [
 },
 {
     name: "Голова Снорка",
-    cost: 475,
+    cost: 600,
     count: 0,
 
     counterPlus: cP,
@@ -594,7 +594,7 @@ let mass = [
 },
 {
     name: "Кожа Карлика",
-    cost: 425,
+    cost: 525,
     count: 0,
 
     counterPlus: cP,
@@ -614,7 +614,7 @@ let mass = [
 },
 {
     name: "Кожа Бюрера",
-    cost: 500,
+    cost: 600,
     count: 0,
 
     counterPlus: cP,
@@ -685,7 +685,7 @@ let mass = [
 },
 {
     name: "Рука Контролёра",
-    cost: 1250,
+    cost: 1050,
     count: 0,
 
     counterPlus: cP,
@@ -695,7 +695,7 @@ let mass = [
 },
 {
     name: "Рука Карлика",
-    cost: 450,
+    cost: 850,
     count: 0,
 
     counterPlus: cP,
@@ -705,7 +705,7 @@ let mass = [
 },
 {
     name: "Рука Бюрера",
-    cost: 700,
+    cost: 800,
     count: 0,
 
     counterPlus: cP,
@@ -725,7 +725,7 @@ let mass = [
 },
 {
     name: "Хвост Пси-Собаки",
-    cost: 400,
+    cost: 500,
     count: 0,
 
     counterPlus: cP,
@@ -735,7 +735,7 @@ let mass = [
 },
 {
     name: "Хвост Псевдо-Собаки",
-    cost: 325,
+    cost: 350,
     count: 0,
 
     counterPlus: cP,
@@ -765,7 +765,7 @@ let mass = [
 },
 {
     name: "Шкура Излома",
-    cost: 375,
+    cost: 305,
     count: 0,
 
     counterPlus: cP,
@@ -795,7 +795,7 @@ let mass = [
 },
 {
     name: "Шкура Полтергейста",
-    cost: 600,
+    cost: 700,
     count: 0,
 
     counterPlus: cP,
@@ -805,7 +805,7 @@ let mass = [
 },
 {
     name: "Шкура Королевского-Кабана",
-    cost: 1250,
+    cost: 1150,
     count: 0,
 
     counterPlus: cP,
@@ -815,7 +815,7 @@ let mass = [
 },
 {
     name: "Щупальце Кровососа",
-    cost: 525,
+    cost: 700,
     count: 0,
 
     counterPlus: cP,
