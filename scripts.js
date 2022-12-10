@@ -724,6 +724,16 @@ let mass = [
     inputMinus: iM,
 },
 {
+    name: "Лапа псевдыча",
+    cost: 2000,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
     name: "Хвост Пси-Собаки",
     cost: 500,
     count: 0,
@@ -806,6 +816,16 @@ let mass = [
 {
     name: "Шкура Королевского-Кабана",
     cost: 1150,
+    count: 0,
+
+    counterPlus: cP,
+    counterMinus: cM,
+    inputPlus: iP,
+    inputMinus: iM,
+},
+{
+    name: "Шкура псевдыча",
+    cost: 1500,
     count: 0,
 
     counterPlus: cP,
