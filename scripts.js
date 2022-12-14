@@ -56,12 +56,14 @@ let mass = [
         name: "------------------ХЛАМ-----------------",
         cost: 0,
         count: 0,
+        img: "images/0.png",
     
     },
 {
     name: "Арамидная ткань",
     cost: 225,
     count: 0,
+    img: "images/16.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -72,6 +74,7 @@ let mass = [
     name: "Армированная изолента",
     cost: 350,
     count: 0,
+    img: "images/25.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -82,6 +85,7 @@ let mass = [
     name: "Брезентовая ткань",
     cost: 250,
     count: 0,
+    img: "images/26.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -92,6 +96,7 @@ let mass = [
     name: "Белая ПВХ изолента",
     cost: 225,
     count: 0,
+    img: "images/35.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -102,6 +107,7 @@ let mass = [
     name: "Баллон для оружейной смазки",
     cost: 350,
     count: 0,
+    img: "images/20.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -112,6 +118,7 @@ let mass = [
     name: "Бронепластина СВМП",
     cost: 600,
     count: 0,
+    img: "images/23.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -122,6 +129,7 @@ let mass = [
     name: "Боковая пластина СВМП",
     cost: 600,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -132,6 +140,7 @@ let mass = [
     name: "Боковая бронепластина из титанового сплава",
     cost: 650,
     count: 0,
+    img: "images/22.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -142,6 +151,7 @@ let mass = [
     name: "Бронепластина из балистической ткани",
     cost: 750,
     count: 0,
+    img: "images/21.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -152,6 +162,7 @@ let mass = [
     name: "Боковая керамическая пластина",
     cost: 800,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -162,6 +173,7 @@ let mass = [
     name: "Клей",
     cost: 250,
     count: 0,
+    img: "images/32.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -172,6 +184,7 @@ let mass = [
     name: "Инструменты для грубой работы",
     cost: 1200,
     count: 0,
+    img: "images/41.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -182,6 +195,7 @@ let mass = [
     name: "Инструменты для тонкой работы",
     cost: 1700,
     count: 0,
+    img: "images/40.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -192,6 +206,7 @@ let mass = [
     name: "Инструменты для калибровки",
     cost: 2000,
     count: 0,
+    img: "images/39.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -202,6 +217,7 @@ let mass = [
     name: "Изолента из лавсана",
     cost: 400,
     count: 0,
+    img: "images/30.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -212,6 +228,7 @@ let mass = [
     name: "Изолента из стекловолокна",
     cost: 500,
     count: 0,
+    img: "images/43.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -222,6 +239,7 @@ let mass = [
     name: "Красная хб изолента",
     cost: 200,
     count: 0,
+    img: "images/46.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -232,6 +250,7 @@ let mass = [
     name: "Масло Русак",
     cost: 250,
     count: 0,
+    img: "images/31.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -242,6 +261,7 @@ let mass = [
     name: "Набор для чистки оружия",
     cost: 250,
     count: 0,
+    img: "images/28.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -252,6 +272,7 @@ let mass = [
     name: "Поврежденная керамическая бронепластина",
     cost: 500,
     count: 0,
+    img: "images/42.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -262,6 +283,7 @@ let mass = [
     name: "Пластина с антирикошетным покрытием",
     cost: 1000,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -272,6 +294,7 @@ let mass = [
     name: "Серая ПВХ изолента",
     cost: 250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -282,6 +305,7 @@ let mass = [
     name: "Самодельная плита из углеродного волокна",
     cost: 400,
     count: 0,
+    img: "images/29.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -292,6 +316,7 @@ let mass = [
     name: "Ткань из РИП-СТОПА",
     cost: 350,
     count: 0,
+    img: "images/17.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -302,6 +327,7 @@ let mass = [
     name: "Ткань из сукна",
     cost: 250,
     count: 0,
+    img: "images/24.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -312,6 +338,7 @@ let mass = [
     name: "Ткань из саржи",
     cost: 500,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -322,6 +349,7 @@ let mass = [
     name: "Ткань изофлекс",
     cost: 400,
     count: 0,
+    img: "images/19.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -332,6 +360,7 @@ let mass = [
     name: "Ткань из серебристкого волокна",
     cost: 400,
     count: 0,
+    img: "images/18.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -342,6 +371,7 @@ let mass = [
     name: "Зеленая ХБ изолента",
     cost: 250,
     count: 0,
+    img: "images/44.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -352,6 +382,7 @@ let mass = [
     name: "Часть автомата",
     cost: 450,
     count: 0,
+    img: "images/27.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -362,23 +393,27 @@ let mass = [
     name: "------------------ХЛАМ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 },
 
 {
     name: "---------------------------------------------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 },
 {
     name: "------------------ДОКУМЕНТЫ И КЕЙСЫ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 
 },
 {
     name: "Административные документы",
     cost: 1250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -389,6 +424,7 @@ let mass = [
     name: "Бумаги с записями",
     cost: 750,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -399,6 +435,7 @@ let mass = [
     name: "Внутреннее распоряжение №423",
     cost: 1250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -409,6 +446,7 @@ let mass = [
     name: "График поставок",
     cost: 1400,
     count: 0,
+    img: "images/68.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -419,6 +457,7 @@ let mass = [
     name: "Документы с уничтоженного блокпоста",
     cost: 2000,
     count: 0,
+    img: "images/48.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -429,6 +468,7 @@ let mass = [
     name: "Документы из Припяти",
     cost: 1500,
     count: 0,
+    img: "images/74.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -439,6 +479,7 @@ let mass = [
     name: "Документы о поставках изделия №62",
     cost: 1500,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -449,6 +490,7 @@ let mass = [
     name: "Журнал дежурной смены",
     cost: 750,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -459,6 +501,7 @@ let mass = [
     name: "Зеленый кейс",
     cost: 1250,
     count: 0,
+    img: "images/37.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -469,6 +512,7 @@ let mass = [
     name: "Коричневый кейс",
     cost: 950,
     count: 0,
+    img: "images/36.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -479,6 +523,7 @@ let mass = [
     name: "Мини-кейс с пометкой",
     cost: 1800,
     count: 0,
+    img: "images/47.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -489,6 +534,7 @@ let mass = [
     name: "Папка с приказом",
     cost: 1250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -499,6 +545,7 @@ let mass = [
     name: "Приказ №526",
     cost: 1000,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -509,6 +556,7 @@ let mass = [
     name: "Распоряжение о переводе",
     cost: 1250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -519,6 +567,7 @@ let mass = [
     name: "Схема путепровода",
     cost: 1000,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -529,6 +578,7 @@ let mass = [
     name: "Ржавый кейс",
     cost: 650,
     count: 0,
+    img: "images/36.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -539,6 +589,7 @@ let mass = [
     name: "Синий кейс",
     cost: 1500,
     count: 0,
+    img: "images/38.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -549,23 +600,27 @@ let mass = [
     name: "------------------ДОКУМЕНТЫ И КЕЙСЫ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 
 },
 {
     name: "---------------------------------------------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 },
 {
     name: "------------------ШКУРЫ И ЧАСТИ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 
 },
 {
     name: "Плоть, Собака, Кабан",
     cost: 225,
     count: 0,
+    img: "images/52.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -576,6 +631,7 @@ let mass = [
     name: "Голова Тушкана",
     cost: 250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -586,6 +642,7 @@ let mass = [
     name: "Голова Снорка",
     cost: 600,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -596,6 +653,7 @@ let mass = [
     name: "Кожа Карлика",
     cost: 525,
     count: 0,
+    img: "images/50.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -606,6 +664,7 @@ let mass = [
     name: "Коготь Химеры",
     cost: 1500,
     count: 0,
+    img: "images/63.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -616,6 +675,7 @@ let mass = [
     name: "Кожа Бюрера",
     cost: 600,
     count: 0,
+    img: "images/54.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -626,6 +686,7 @@ let mass = [
     name: "Клык Королевского-кабана",
     cost: 975,
     count: 0,
+    img: "images/64.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -637,6 +698,7 @@ let mass = [
     name: "Мясо зомби",
     cost: 225,
     count: 0,
+    img: "images/56.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -647,6 +709,7 @@ let mass = [
     name: "Мозг Контролёра",
     cost: 1250,
     count: 0,
+    img: "images/65.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -657,6 +720,7 @@ let mass = [
     name: "Рука Зомби",
     cost: 350,
     count: 0,
+    img: "images/57.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -667,6 +731,7 @@ let mass = [
     name: "Рука Излома",
     cost: 450,
     count: 0,
+    img: "images/60.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -677,6 +742,7 @@ let mass = [
     name: "Рука Полтергейста",
     cost: 750,
     count: 0,
+    img: "images/66.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -687,6 +753,7 @@ let mass = [
     name: "Рука Контролёра",
     cost: 1050,
     count: 0,
+    img: "images/59.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -697,6 +764,7 @@ let mass = [
     name: "Рука Карлика",
     cost: 850,
     count: 0,
+    img: "images/57.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -707,6 +775,7 @@ let mass = [
     name: "Рука Бюрера",
     cost: 800,
     count: 0,
+    img: "images/61.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -717,6 +786,7 @@ let mass = [
     name: "Рука Снорка",
     cost: 400,
     count: 0,
+    img: "images/58.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -727,6 +797,7 @@ let mass = [
     name: "Лапа псевдыча",
     cost: 2000,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -737,6 +808,7 @@ let mass = [
     name: "Хвост Пси-Собаки",
     cost: 500,
     count: 0,
+    img: "images/62.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -747,6 +819,7 @@ let mass = [
     name: "Хвост Псевдо-Собаки",
     cost: 350,
     count: 0,
+    img: "images/62.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -757,6 +830,7 @@ let mass = [
     name: "Шкура Псевдо-Собаки",
     cost: 275,
     count: 0,
+    img: "images/55.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -767,6 +841,7 @@ let mass = [
     name: "Шкура Пси-Собаки",
     cost: 350,
     count: 0,
+    img: "images/55.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -777,6 +852,7 @@ let mass = [
     name: "Шкура Излома",
     cost: 305,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -787,6 +863,7 @@ let mass = [
     name: "Шкура Химеры",
     cost: 1250,
     count: 0,
+    img: "images/67.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -797,6 +874,7 @@ let mass = [
     name: "Шкура Кровососа",
     cost: 450,
     count: 0,
+    img: "images/51.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -807,6 +885,7 @@ let mass = [
     name: "Шкура Полтергейста",
     cost: 700,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -817,6 +896,7 @@ let mass = [
     name: "Шкура Королевского-Кабана",
     cost: 1150,
     count: 0,
+    img: "images/52.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -824,9 +904,10 @@ let mass = [
     inputMinus: iM,
 },
 {
-    name: "Шкура псевдыча",
+    name: "Шкура Псевдыча",
     cost: 1500,
     count: 0,
+    img: "images/67.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -837,6 +918,7 @@ let mass = [
     name: "Щупальце Кровососа",
     cost: 700,
     count: 0,
+    img: "images/53.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -847,24 +929,28 @@ let mass = [
     name: "------------------ШКУРЫ И ЧАСТИ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 
 },
 {
     name: "---------------------------------------------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 },
     
 {
     name: "------------------МУСОР И СИГАРЕТЫ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 
 },
 {
-    name: "Любые сигареты",
+    name: "Любые сигареты/монеты",
     cost: 200,
     count: 0,
+    img: "images/75.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -875,6 +961,7 @@ let mass = [
     name: "Банка с краской",
     cost: 250,
     count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -885,6 +972,7 @@ let mass = [
     name: "Баллон с газом",
     cost: 350,
     count: 0,
+    img: "images/6.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -895,6 +983,7 @@ let mass = [
     name: "Батарейка",
     cost: 130,
     count: 0,
+    img: "images/15.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -905,6 +994,7 @@ let mass = [
     name: "Конденсаторы/Резисторы",
     cost: 300,
     count: 0,
+    img: "images/3.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -915,6 +1005,7 @@ let mass = [
     name: "Карты",
     cost: 100,
     count: 0,
+    img: "images/1.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -925,6 +1016,7 @@ let mass = [
     name: "Пачка испорченных патронов",
     cost: 150,
     count: 0,
+    img: "images/9.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -932,9 +1024,10 @@ let mass = [
     inputMinus: iM,
 },
 {
-    name: "Сумка охотника",
-    cost: 1600,
+    name: "Испорченные пистолетные патроны",
+    cost: 80,
     count: 0,
+    img: "images/14.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -945,16 +1038,7 @@ let mass = [
     name: "Спички",
     cost: 75,
     count: 0,
-
-    counterPlus: cP,
-    counterMinus: cM,
-    inputPlus: iP,
-    inputMinus: iM,
-},
-{
-    name: "Сигара",
-    cost: 100,
-    count: 0,
+    img: "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -965,6 +1049,7 @@ let mass = [
     name: "Сапоги",
     cost: 150,
     count: 0,
+    img: "images/4.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -975,6 +1060,7 @@ let mass = [
     name: "Спальник",
     cost: 240,
     count: 0,
+    img: "images/8.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -983,8 +1069,9 @@ let mass = [
 },
 {
     name: "Сумка охотника",
-    cost: 1900,
+    cost: 1700,
     count: 0,
+    img: "images/7.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -995,7 +1082,8 @@ let mass = [
     name: "Текстолит",
     cost: 190,
     count: 0,
-
+    img: "images/2.png",
+    
     counterPlus: cP,
     counterMinus: cM,
     inputPlus: iP,
@@ -1005,6 +1093,7 @@ let mass = [
     name: "Уголь",
     cost: 270,
     count: 0,
+    img: "images/5.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1015,22 +1104,26 @@ let mass = [
     name: "------------------МУСОР И СИГАРЕТЫ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 
 },
 {
     name: "---------------------------------------------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 },
 {
     name: "------------------МЕДИЦИНСКИЙ ХЛАМ-----------------",
     cost: 0,
     count: 0,
+    img: "images/0.png",
 },
 {
     name: "Бинт",
     cost: 25,
     count: 0,
+    img : "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1041,6 +1134,7 @@ let mass = [
     name: "Банка старых таблеток",
     cost: 550,
     count: 0,
+    img : "images/11.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1051,6 +1145,7 @@ let mass = [
     name: "Старая армейская аптечка",
     cost: 270,
     count: 0,
+    img : "images/12.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1061,6 +1156,7 @@ let mass = [
     name: "Старая АИ-2",
     cost: 150,
     count: 0,
+    img : "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1071,6 +1167,7 @@ let mass = [
     name: "Старая Мед. Сумка",
     cost: 1400,
     count: 0,
+    img : "",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1081,6 +1178,7 @@ let mass = [
     name: "Использованный Фельдшерский набор",
     cost: 700,
     count: 0,
+    img : "images/13.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1091,7 +1189,7 @@ let mass = [
     name: "------------------МЕДИЦИНСКИЙ ХЛАМ-----------------",
     cost: 0,
     count: 0,
-
+    img: "images/0.png",
 },
 ];
 
@@ -1105,8 +1203,8 @@ mass.map((person, i) => (
     ul.innerHTML += 
     ` 
     <li class="element"> 
-
-    ${person.name} = <div style="display: inline; color:red;"> ${person.cost} rub. </div> 
+    <img src = ${person.img} class = "image">
+    ${person.name} = <div style="display: inline; color:white;"> ${person.cost} rub. </div> 
 
     . . Количество : <div class="amount" id="amount-${i}"> ${person.count} </div>
         <button class="btn-plus" onClick="mass[${i}].counterPlus(${i})"> +1 </button> 
