@@ -125,7 +125,7 @@ let mass = [
     inputPlus: iP,
     inputMinus: iM,
 },
-{
+/*{
     name: "Боковая пластина СВМП",
     cost: 600,
     count: 0,
@@ -135,7 +135,7 @@ let mass = [
     counterMinus: cM,
     inputPlus: iP,
     inputMinus: iM,
-},
+},*/
 {
     name: "Боковая бронепластина из титанового сплава",
     cost: 650,
@@ -158,7 +158,7 @@ let mass = [
     inputPlus: iP,
     inputMinus: iM,
 },
-{
+/*{
     name: "Боковая керамическая пластина",
     cost: 800,
     count: 0,
@@ -168,7 +168,7 @@ let mass = [
     counterMinus: cM,
     inputPlus: iP,
     inputMinus: iM,
-},
+},*/
 {
     name: "Клей",
     cost: 250,
@@ -279,7 +279,7 @@ let mass = [
     inputPlus: iP,
     inputMinus: iM,
 },
-{
+/*{
     name: "Пластина с антирикошетным покрытием",
     cost: 1000,
     count: 0,
@@ -289,7 +289,7 @@ let mass = [
     counterMinus: cM,
     inputPlus: iP,
     inputMinus: iM,
-},
+},*/
 {
     name: "Серая ПВХ изолента",
     cost: 250,
@@ -334,7 +334,7 @@ let mass = [
     inputPlus: iP,
     inputMinus: iM,
 },
-{
+/*{
     name: "Ткань из саржи",
     cost: 500,
     count: 0,
@@ -344,7 +344,7 @@ let mass = [
     counterMinus: cM,
     inputPlus: iP,
     inputMinus: iM,
-},
+},*/
 {
     name: "Ткань изофлекс",
     cost: 400,
@@ -797,7 +797,7 @@ let mass = [
     name: "Лапа псевдыча",
     cost: 2000,
     count: 0,
-    img: "",
+    img: "images/91.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1123,7 +1123,7 @@ let mass = [
     name: "Бинт",
     cost: 25,
     count: 0,
-    img : "",
+    img : "images/92.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1156,7 +1156,7 @@ let mass = [
     name: "Старая АИ-2",
     cost: 150,
     count: 0,
-    img : "",
+    img : "images/93.png",
 
     counterPlus: cP,
     counterMinus: cM,
