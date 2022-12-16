@@ -294,7 +294,7 @@ let mass = [
     name: "Серая ПВХ изолента",
     cost: 250,
     count: 0,
-    img: "",
+    img: "images/85.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -413,7 +413,7 @@ let mass = [
     name: "Административные документы",
     cost: 1250,
     count: 0,
-    img: "",
+    img: "images/78.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -424,7 +424,7 @@ let mass = [
     name: "Бумаги с записями",
     cost: 750,
     count: 0,
-    img: "",
+    img: "images/86.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -435,7 +435,7 @@ let mass = [
     name: "Внутреннее распоряжение №423",
     cost: 1250,
     count: 0,
-    img: "",
+    img: "images/77.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -479,7 +479,7 @@ let mass = [
     name: "Документы о поставках изделия №62",
     cost: 1500,
     count: 0,
-    img: "",
+    img: "images/73.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -490,7 +490,7 @@ let mass = [
     name: "Журнал дежурной смены",
     cost: 750,
     count: 0,
-    img: "",
+    img: "images/87.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -534,7 +534,7 @@ let mass = [
     name: "Папка с приказом",
     cost: 1250,
     count: 0,
-    img: "",
+    img: "images/88.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -545,7 +545,7 @@ let mass = [
     name: "Приказ №526",
     cost: 1000,
     count: 0,
-    img: "",
+    img: "images/79.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -556,7 +556,7 @@ let mass = [
     name: "Распоряжение о переводе",
     cost: 1250,
     count: 0,
-    img: "",
+    img: "images/80.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -567,7 +567,7 @@ let mass = [
     name: "Схема путепровода",
     cost: 1000,
     count: 0,
-    img: "",
+    img: "images/81.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -631,7 +631,7 @@ let mass = [
     name: "Голова Тушкана",
     cost: 250,
     count: 0,
-    img: "",
+    img: "images/89.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -642,7 +642,7 @@ let mass = [
     name: "Голова Снорка",
     cost: 600,
     count: 0,
-    img: "",
+    img: "images/82.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -852,7 +852,7 @@ let mass = [
     name: "Шкура Излома",
     cost: 305,
     count: 0,
-    img: "",
+    img: "images/83.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -885,7 +885,7 @@ let mass = [
     name: "Шкура Полтергейста",
     cost: 700,
     count: 0,
-    img: "",
+    img: "images/84.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -907,7 +907,7 @@ let mass = [
     name: "Шкура Псевдыча",
     cost: 1500,
     count: 0,
-    img: "images/67.png",
+    img: "images/49.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -961,7 +961,7 @@ let mass = [
     name: "Банка с краской",
     cost: 250,
     count: 0,
-    img: "",
+    img: "images/90.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1038,7 +1038,7 @@ let mass = [
     name: "Спички",
     cost: 75,
     count: 0,
-    img: "",
+    img: "images/76.png",
 
     counterPlus: cP,
     counterMinus: cM,
@@ -1202,15 +1202,14 @@ resultat.innerHTML = ` <h1> ИТОГОВАЯ ЦЕНА : = ${res} </h1> `;
 mass.map((person, i) => (
     ul.innerHTML += 
     ` 
-    <li class="element"> 
-    <img src = ${person.img} class = "image">
-    ${person.name} = <div style="display: inline; color:white;"> ${person.cost} rub. </div> 
+        <li class="element"> 
+            <img src = ${person.img} class = "image">
+            ${person.name} = <div style="display: inline; color:white;"> ${person.cost} rub. </div> 
 
-    . . Количество : <div class="amount" id="amount-${i}"> ${person.count} </div>
-        <button class="btn-plus" onClick="mass[${i}].counterPlus(${i})"> +1 </button> 
-        <button class="btn-minus" onClick="mass[${i}].counterMinus(${i})"> -1 </button> 
-    . . +Несколько : <input id="${i}" type="number"> <button class="btn-plus" onClick="mass[${i}].inputPlus(${i})"> ++ </button> <button class="btn-minus" onClick="mass[${i}].inputMinus(${i})"> Очистить предмет </button> </input> 
-        
-    </li>  
+            . . Количество : <div class="amount" id="amount-${i}"> ${person.count} </div>
+                <button class="btn-plus" onClick="mass[${i}].counterPlus(${i})"> +1 </button> 
+                <button class="btn-minus" onClick="mass[${i}].counterMinus(${i})"> -1 </button> 
+            . . +Несколько : <input id="${i}" type="number"> <button class="btn-plus" onClick="mass[${i}].inputPlus(${i})"> ++ </button> <button class="btn-minus" onClick="mass[${i}].inputMinus(${i})"> Очистить предмет </button> </input> 
+        </li>  
     `
 ));
